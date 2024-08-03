@@ -399,6 +399,30 @@
             ]
           }
         ]
+      },
+      {
+        "key": "Zebet",
+        "title": "Zebet",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-08-03 18:29:13.925327",
+            "outcomes": [
+              {
+                "name": "Monaco",
+                "price": 1.46
+              },
+              {
+                "name": "St Etienne",
+                "price": 5.5
+              },
+              {
+                "name": "Draw",
+                "price": 4.3
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -798,6 +822,30 @@
               {
                 "name": "Draw",
                 "price": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "Zebet",
+        "title": "Zebet",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-08-03 18:29:13.939355",
+            "outcomes": [
+              {
+                "name": "Angers",
+                "price": 4.95
+              },
+              {
+                "name": "Lens",
+                "price": 1.58
+              },
+              {
+                "name": "Draw",
+                "price": 3.75
               }
             ]
           }
@@ -1205,6 +1253,30 @@
             ]
           }
         ]
+      },
+      {
+        "key": "Zebet",
+        "title": "Zebet",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-08-03 18:29:13.892356",
+            "outcomes": [
+              {
+                "name": "Auxerre",
+                "price": 3.15
+              },
+              {
+                "name": "Nice",
+                "price": 2.15
+              },
+              {
+                "name": "Draw",
+                "price": 3.2
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1604,6 +1676,30 @@
               {
                 "name": "Draw",
                 "price": 3.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "Zebet",
+        "title": "Zebet",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-08-03 18:29:13.907327",
+            "outcomes": [
+              {
+                "name": "Brest",
+                "price": 2.45
+              },
+              {
+                "name": "Marseille",
+                "price": 2.65
+              },
+              {
+                "name": "Draw",
+                "price": 3.35
               }
             ]
           }
@@ -2817,6 +2913,30 @@
             ]
           }
         ]
+      },
+      {
+        "key": "Zebet",
+        "title": "Zebet",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-08-03 18:29:13.966328",
+            "outcomes": [
+              {
+                "name": "Rennes",
+                "price": 2.15
+              },
+              {
+                "name": "Lyon",
+                "price": 3.0
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -3216,6 +3336,30 @@
               {
                 "name": "Draw",
                 "price": 3.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "Zebet",
+        "title": "Zebet",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2024-08-03 18:29:13.953324",
+            "outcomes": [
+              {
+                "name": "Montpellier",
+                "price": 2.0
+              },
+              {
+                "name": "Strasbourg",
+                "price": 3.4
+              },
+              {
+                "name": "Draw",
+                "price": 3.25
               }
             ]
           }
