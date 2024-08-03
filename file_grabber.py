@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-ODDS_API = os.getenv('odds_api')
+ODDS_API = os.getenv('ODDS_API')
 
 
 # def save_files(div_odds):
@@ -17,7 +17,7 @@ ODDS_API = os.getenv('odds_api')
 
 # return a list of soccer leagues
 
-sports = 'https://api.the-odds-api.com/v4/sports/?apiKey={ODDS_API}'
+sports = f'https://api.the-odds-api.com/v4/sports/?apiKey={ODDS_API}'
 
 resp_sp  = requests.get(sports)
 sports_resp = resp_sp.json()

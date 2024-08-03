@@ -11,6 +11,6 @@ competitions = [
 	{'sport': "football", 'competition': "bundesliga-austria"},
 	{'sport': "football", 'competition': "division-1a"},
 	{'sport': "football", 'competition': "super-lig"},
-	{'sport': "basketball", "competition": "nba"},
-	{'sport': "basketball", "competition": "euroleague"},
+	# {'sport': "basketball", "competition": "nba"},
+	# {'sport': "basketball", "competition": "euroleague"},
 ]
