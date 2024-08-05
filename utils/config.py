@@ -1,0 +1,20 @@
+
+competitions = [
+	{'sport': "football", 'competition': "ligue1"},
+	{'sport': "football", 'competition': "liga"},
+	{'sport': "football", 'competition': "bundesliga"},
+	{'sport': "football", 'competition': "premier-league"},
+	{'sport': "football", 'competition': "serie-a"},
+	{'sport': "football", 'competition': "primeira"},
+	{'sport': "football", 'competition': "serie-a-brasil"},
+    {'sport': "football", 'competition': "bundesliga-austria"},
+	{'sport': "football", 'competition': "a-league"},
+	{'sport': "football", 'competition': "division-1a"},
+    {'sport': "football", 'competition': "primera-division"},
+    {'sport': "football", 'competition': "primera-division-chile"},
+    {'sport': "football", 'competition': "soccer-france-ligue-two"},
+    {'sport': "football", 'competition': "soccer-japan-j-league"},
+    {'sport': "football", 'competition': "super-lig"},
+	# {'sport': "basketball", "competition": "nba"},
+	# {'sport': "basketball", "competition": "euroleague"},
+]

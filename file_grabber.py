@@ -1,15 +1,12 @@
 import re
 import requests
 import json
-
 import os
 from dotenv import load_dotenv
 
 load_dotenv()
 
-ODDS_API = os.getenv('ODDS_API')
-
-
+API_KEY = os.getenv('ODDS_API')
 # def save_files(div_odds):
 #     with open(f'{league}.json', 'w') as f:
 #         for league in soccer_path:
@@ -17,7 +14,7 @@ ODDS_API = os.getenv('ODDS_API')
 
 # return a list of soccer leagues
 
-sports = f'https://api.the-odds-api.com/v4/sports/?apiKey={ODDS_API}'
+sports = f'https://api.the-odds-api.com/v4/sports/?apiKey={API_KEY}'
 
 resp_sp  = requests.get(sports)
 sports_resp = resp_sp.json()
@@ -49,7 +46,7 @@ for string in sport_path_list:
 #['soccer_argentina_primera_division', 'soccer_australia_aleague', 'soccer_belgium_first_div' ...]
 
 for league in soccer_path:
-    odds = f'https://api.the-odds-api.com/v4/sports/{league}/odds/?regions=eu&markets={ODDS_API}'
+    odds = f'https://api.the-odds-api.com/v4/sports/{league}/odds/?regions=eu&markets=h2h&apiKey=c9b8199534fb6736b0d72f3dd7ae01e0'
     resp = requests.get(odds)
     div_odds = resp.json()
     with open(f'{league}.json', 'w') as f:

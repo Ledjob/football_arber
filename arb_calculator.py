@@ -92,7 +92,7 @@ def print_best_odds(group: pd.DataFrame) -> None:
         print(f"Best {outcome.capitalize()} odds: {best[f'{outcome}_odd']:.2f} ({best['bookie']})")
 
 def main():
-    sport_list = load_json_file('sports_title.json')
+    sport_list = load_json_file('./utils/sports_title.json')
     soccer_paths = get_soccer_paths(sport_list)
 
     all_odds = []
