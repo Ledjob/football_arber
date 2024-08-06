@@ -46,9 +46,8 @@ for string in sport_path_list:
 #['soccer_argentina_primera_division', 'soccer_australia_aleague', 'soccer_belgium_first_div' ...]
 
 for league in soccer_path:
-    odds = f'https://api.the-odds-api.com/v4/sports/{league}/odds/?regions=eu&markets=h2h&apiKey=c9b8199534fb6736b0d72f3dd7ae01e0'
+    odds = f'https://api.the-odds-api.com/v4/sports/{league}/odds/?regions=eu&markets=h2h&apiKey={API_KEY}'
     resp = requests.get(odds)
     div_odds = resp.json()
     with open(f'{league}.json', 'w') as f:
             json.dump(div_odds, f)
-
